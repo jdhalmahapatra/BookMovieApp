@@ -1,0 +1,93 @@
+.header{
+    background-color: #222;
+    width: 100%;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 3;
+}
+.logo{
+    display:inline-block;
+    align-items: flex-start;
+    background-color: #ff7f7f;
+    width: 40px;
+    height: 35px;
+}
+.rotate {
+    animation: rotation 8s;
+  }
+  
+.linear {
+    animation-timing-function: linear;
+  }
+  
+.infinite {
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotateY(179deg);
+    }
+}
+img{
+    width: 100%;
+    height: 35px;
+    left: 0;
+    top:0;
+}
+.action-control{
+    width: 200px;
+    height: 100%;
+    top:0;
+    margin-right: 30px;
+    /* background-color: #ff7f7f; */
+}
+.login-logout-btn{
+    float: right;
+}
+.show-book{
+    display: none;
+}
+.auth-modal{
+    top: 50%;
+    left:50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 25%;
+    height: 70vh;
+    background-color: #fff
+}
+.modal-container{
+    width: auto;
+    height: 94%;
+    margin: 15px 15px;
+    background-color: #fff;
+    border: 1px solid #dad9d9;
+    border-radius: 4px;
+}
+.custom-tab{
+    padding: 5px 5px;
+}
+
+/*Form Styling*/
+/* .login-form{
+    width: 100%;
+} */
+.login-register-form{
+    /* margin: 15px; */
+}
+.textfiled-style{
+    width: 60%;
+    top: 25px;
+    left:20%;
+    right:auto;
+}
+
