@@ -1,0 +1,179 @@
+[
+    {
+        "id": "1",
+        "title":"Annabelle: Creation",
+        "genres": [
+            "Horror",
+            "Suspense"
+        ],
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/08/Annabelle_Creation.jpg",
+		"trailer_url": "https://www.youtube.com/watch?v=KisPhy7T__Q",
+        "release_date": "2022-07-01",
+        "status": "UPCOMING",
+        "artists": [{
+            "id": "246165d2-a238-11e8-9077-720006ceb890",
+            "first_name": "Anthony",
+            "last_name": "LaPaglia",
+            "role_type": "ACTOR",
+            "profile_description": "Anthony M. LaPaglia is an Australian actor. He played the role of Joe in the coming of age comedy Empire Records and John in the film Autumn In New York, as well as FBI agent Jack Malone on the American TV series Without a Trace, for which he won a Golden Globe Award for Best Actor – Television Series Drama. He also appeared in 8 episodes of Frasier as Daphne Moons alcoholic brother Simon.",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Anthony_LaPaglia_and_Gia_Carides_at_the_Man_of_Steel_premiere_in_Sydney_%289123807673%29.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Anthony_LaPaglia"
+        }]
+    },
+    {
+        "id": "2",
+        "title": "The Nun",
+        "genres": [],
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/34/TheNunPoster.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=pzD9zGcUNrw",
+        "release_date": "2022-09-07",
+        "status": "UPCOMING",
+        "artists": null
+    },
+    {
+    "id": "009ae262-a234-11e8-b475-720006ceb890",
+      "title": "The Godfather",
+      "storyline": "A chilling portrait of the Corleone familys rise and near fall from power in America along with balancing the story of the Sicilian clans ugly crime business in which they are engaged.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "duration": 177,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+      "trailer_url": "https://www.youtube.com/watch/?v=sY1S34973zA",
+      "wiki_url": "https://en.wikipedia.org/wiki/The_Godfather",
+      "release_date": "1972-03-15",
+      "censor_board_rating": "A",
+      "rating": 9.2,
+      "status": "RELEASED",
+      "artists": [
+        {
+          "id": "f114b346-a237-11e8-9077-720006ceb890",
+          "first_name": "Marlon",
+          "last_name": "Brando",
+          "role_type": "ACTOR",
+          "profile_description": "Marlon Brando Jr. was an American actor and film director. He is credited with bringing realism to film acting and helping to popularize the Stanislavski system of acting having studied with Stella Adler in the 1940s. Regarded for his cultural influence on 20th century film, Brandos Academy Award-winning performances include that of Terry Malloy in On the Waterfront (1954) and Don Vito Corleone in The Godfather (1972). Brando was an activist for many causes, notably the civil rights movement and various Native American movements.",
+          "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Marlon_Brando_%28cropped%29.jpg",
+          "wiki_url": "https://en.wikipedia.org/wiki/Marlon_Brando"
+        },
+        {
+          "id": "359f7e8a-a23b-11e8-9077-720006ceb890",
+          "first_name": "Al",
+          "last_name": "Pacino",
+          "role_type": "ACTOR",
+          "profile_description": "Alfredo James Pacino is an American actor and filmmaker. Pacino has had a career spanning over five decades, during which time he has received numerous accolades and honors both competitive and honorary, among them an Academy Award, two Tony Awards, two Primetime Emmy Awards, a British Academy Film Award, four Golden Globe Awards, the Lifetime Achievement Award from the American Film Institute, the Golden Globe Cecil B. DeMille Award, and the National Medal of Arts. He is also one of few performers to have won a competitive Oscar, an Emmy, and a Tony Award for acting, dubbed the Triple Crown of Acting.",
+          "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Al_Pacino.jpg",
+          "wiki_url": "https://en.wikipedia.org/wiki/Al_Pacino"
+        }
+      ]
+    },
+    {
+        "id": "52974be0-a235-11e8-9077-720006ceb890",
+        "title": "Inception",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Scifi"
+        ],
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=8hP9D6kZseM",
+        "release_date": "2022-07-16",
+        "status": "UPCOMING",
+        "artists": [{
+                "id": "24614e76-a238-11e8-9077-720006ceb890",
+                "first_name": "Leonardo",
+                "last_name": "DiCaprio",
+                "role_type": "ACTOR",
+                "profile_description": "Leonardo Wilhelm DiCaprio is an American actor and film producer. DiCaprio began his career by appearing in television commercials in the late 1980s. He next had recurring roles in various television series, such as the soap opera Santa Barbara and the sitcom Growing Pains. DiCaprios portrayals of Howard Hughes in The Aviator (2004) and Hugh Glass in The Revenant won him the Golden Globe Award for Best Actor – Motion Picture Drama. His performance as Jordan Belfort in The Wolf of Wall Street won him the Golden Globe award for Best Actor – Motion Picture Musical or Comedy. He also won the Academy Award for Best Actor and BAFTA Award for his performance in The Revenant. DiCaprio is the founder of his own production company, Appian Way Productions.",
+                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Leonardo_DiCaprio_visited_Goddard_Saturday_to_discuss_Earth_science_with_Piers_Sellers_%2826105091624%29_cropped.jpg",
+                "wiki_url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio"
+            },
+            {
+                "id": "24615498-a238-11e8-9077-720006ceb890",
+                "first_name": "Joseph",
+                "last_name": "Gordon-Levitt",
+                "role_type": "ACTOR",
+                "profile_description": "Joseph Leonard Gordon-Levitt is an American actor, filmmaker, singer, and entrepreneur. As a child, Gordon-Levitt appeared in many films and TV series. He took a break from acting to study at Columbia University, but dropped out in 2004 to pursue acting again. He has since starred in  films like (500) Days of Summer, Inception, The Dark Knight Rises, G.I. Joe: The Rise of Cobra and others. For his leading performances in (500) Days of Summer and 50/50, he was nominated for the Golden Globe Award for Best Actor – Motion Picture Musical or Comedy.",
+                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Joseph_Gordon-Levitt_2013.jpg",
+                "wiki_url": "https://en.wikipedia.org/wiki/Joseph_Gordon-Levitt"
+            }
+        ]
+    },
+    {
+        "id": "00ae33e8-a235-11e8-9077-720006ceb890",
+        "title": "The Revenant",
+        "storyline": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+        "genres": [
+          "Drama",
+          "Action",
+          "Adventure"
+        ],
+        "duration": 156,
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/b6/The_Revenant_2015_film_poster.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=LoebZZ8K5N0",
+        "wiki_url": "https://en.wikipedia.org/wiki/The_Revenant_(2015_film)",
+        "release_date": "2015-12-16",
+        "censor_board_rating": "UA",
+        "rating": 8,
+        "status": "RELEASED",
+        "artists": [
+          {
+            "id": "24614e76-a238-11e8-9077-720006ceb890",
+            "first_name": "Leonardo",
+            "last_name": "DiCaprio",
+            "role_type": "ACTOR",
+            "profile_description": "Leonardo Wilhelm DiCaprio is an American actor and film producer. DiCaprio began his career by appearing in television commercials in the late 1980s. He next had recurring roles in various television series, such as the soap opera Santa Barbara and the sitcom Growing Pains. DiCaprios portrayals of Howard Hughes in The Aviator (2004) and Hugh Glass in The Revenant won him the Golden Globe Award for Best Actor – Motion Picture Drama. His performance as Jordan Belfort in The Wolf of Wall Street won him the Golden Globe award for Best Actor – Motion Picture Musical or Comedy. He also won the Academy Award for Best Actor and BAFTA Award for his performance in The Revenant. DiCaprio is the founder of his own production company, Appian Way Productions.",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Leonardo_DiCaprio_visited_Goddard_Saturday_to_discuss_Earth_science_with_Piers_Sellers_%2826105091624%29_cropped.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio"
+          },
+          {
+            "id": "2461973c-a238-11e8-9077-720006ceb890",
+            "first_name": "Tom",
+            "last_name": "Hardy",
+            "role_type": "ACTOR",
+            "profile_description": "Edward Thomas Hardy is an English actor, producer, and former model. Hardy made his debut in the Ridley Scott film Black Hawk Down, and has since had notable roles in films such as Star Trek: Nemesis, RocknRolla, Bronson, Warrior, Tinker Tailor Soldier Spy, Lawless, Locke, The Drop, and The Revenant, for which he received a nomination for the Academy Award for Best Supporting Actor. In 2015, Hardy portrayed Mad Max Rockatansky in Mad Max: Fury Road and both Kray twins in Legend. He has also appeared in three Christopher Nolan films: Inception, as Bane in The Dark Knight Rises, and Dunkirk",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Tom_Hardy_Locke_Premiere.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Tom_Hardy"
+          }
+        ]
+      },
+      {
+        "id": "52975022-a235-11e8-9077-720006ceb890",
+        "title": "Interstellar",
+        "storyline": "A team of explorers travel beyond this galaxy through a newly discovered wormhole to discover whether mankind has a future among the stars.",
+        "genres": [
+          "Drama",
+          "Adventure",
+          "Scifi"
+        ],
+        "duration": 169,
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw",
+        "wiki_url": "https://en.wikipedia.org/wiki/Interstellar_(film)",
+        "release_date": "2014-11-07",
+        "censor_board_rating": "UA",
+        "rating": 8.6,
+        "status": "RELEASED",
+        "artists": [
+          {
+            "id": "2461589e-a238-11e8-9077-720006ceb890",
+            "first_name": "Matthew",
+            "last_name": "McConaughey",
+            "role_type": "ACTOR",
+            "profile_description": "Matthew David McConaughey is an American actor, producer, model, writer and director. McConaughey achieved ample success in 2013 and 2014. In 2013, McConaughey portrayed Ron Woodroof, a cowboy diagnosed with AIDS in the biographical film Dallas Buyers Club, which earned him the Academy Award, Critics Choice Movie Award, Golden Globe Award, and Screen Actors Guild Award, all for Best Actor, among other awards and nominations. In 2014, he starred as Rust Cohle in the first season of HBOs crime drama anthology series True Detective, for which he won the Critics Choice Television Award and TCA Award, and was nominated for the Primetime Emmy Award, Golden Globe Award, and Screen Actors Guild Award.",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Matthew_McConaughey_-_Goldene_Kamera_2014_-_Berlin.jpg/1024px-Matthew_McConaughey_-_Goldene_Kamera_2014_-_Berlin.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Matthew_McConaughey"
+          },
+          {
+            "id": "24615c0e-a238-11e8-9077-720006ceb890",
+            "first_name": "Anne",
+            "last_name": "Hathaway",
+            "role_type": "ACTOR",
+            "profile_description": "Anne Jacqueline Hathaway is an American actress and singer. One of the worlds highest-paid actresses in 2015, she has received multiple awards, including an Academy Award, a Golden Globe, a British Academy Film Award, and an Emmy. Her films have earned $6.4 billion worldwide, and she appeared in the Forbes Celebrity 100 in 2009.",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Anne_Hathaway_in_2017.png",
+            "wiki_url": "https://en.wikipedia.org/wiki/Anne_Hathaway"
+          }
+        ]
+      }
+    
+]

@@ -1,0 +1,146 @@
+[  
+    {
+        "id": "0c364cd2-a235-11e8-9077-720006ceb890",
+        "title": "Shahid",
+        "storyline": "Shahid Azmi becomes an unlikely champion of human rights, particularly for Indias Muslim minority.",
+        "genres": [
+          "Drama",
+          "Crime",
+          "Social"
+        ],
+        "duration": 129,
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/cd/Shahid_Poster_%282013%29.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=XiQXmIn7qbI",
+        "wiki_url": "https://en.wikipedia.org/wiki/Shahid_(film)",
+        "release_date": "2013-10-18",
+        "censor_board_rating": "U",
+        "rating": 8.6,
+        "status": "RELEASED",
+        "artists": [
+          {
+            "id": "24615f4c-a238-11e8-9077-720006ceb890",
+            "first_name": "Rajkummar",
+            "last_name": "Rao",
+            "role_type": "ACTOR",
+            "profile_description": "Rajkummar Rao, also known as Rajkumar Yadav, is an Indian actor. He has established a career in Hindi cinema and is the recipient of several awards, including a National Film Award, three Filmfare Awards, and an Asia Pacific Screen Award. He is cited in the media as one of the most talented actors of his generation.",
+            "profile_url": "https://en.wikipedia.org/wiki/Rajkummar_Rao#/media/File:Rajkummar_Rao_World_Premiere_Newton_Zoopalast_Berlinale_2017_02.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Rajkummar_Rao"
+          },
+          {
+            "id": "246162a8-a238-11e8-9077-720006ceb890",
+            "first_name": "Kay Kay",
+            "last_name": "Menon",
+            "role_type": "ACTOR",
+            "profile_description": "Kay Kay Menon is an Indian film, stage and television actor who works predominantly in Hindi cinema, and also in Gujarati, Tamil and Telugu cinema. He has also won the award for best actor for the film Shoonya from Festival of Arab and Asian cinema",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Kay_Kay_Menon_at_libas_store.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Kay_Kay_Menon"
+          }
+        ]
+      },
+      {
+        "id": "65444278-a29b-11e8-9a3a-720006ceb890",
+        "title": "The Irishman",
+        "storyline": "The Irishman is an upcoming American biographical crime film directed by Martin Scorsese and written by Steven Zaillian, based on the book I Heard You Paint Houses by Charles Brandt. The film stars Robert De Niro as Frank Sheeran, a labor union leader and alleged hitman for the Bufalino crime family, and Al Pacino as Jimmy Hoffa. Joe Pesci, Anna Paquin, Bobby Cannavale, Harvey Keitel, and Ray Romano also star.",
+        "genres": [],
+        "duration": 100,
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZjcyMmYwZTUtMzVjZi00YjI5LWEwNDktNDQ1ZGY2M2FlYTBiXkEyXkFqcGdeQXVyMzE3OTk0NjQ@._V1_UY268_CR6,0,182,268_AL__QL50.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=uu1KNOUvzPQ",
+        "wiki_url": "https://en.wikipedia.org/wiki/The_Irishman_(2019_film)",
+        "release_date": "2019-01-01",
+        "censor_board_rating": "UA",
+        "rating": 8,
+        "status": "PUBLISHED",
+        "artists": null
+      },
+      {
+        "id": "16ddc57c-a2a1-11e8-9a3a-720006ceb890",
+        "title": "Ad Astra",
+        "storyline": "Ad Astra is an upcoming American epic science fiction thriller film directed by James Gray, and written by Gray and Ethan Gross. The film will star Brad Pitt, Tommy Lee Jones, Ruth Negga, Donald Sutherland and Jamie Kennedy.",
+        "genres": [],
+        "duration": 100,
+        "poster_url": "https://static1.squarespace.com/static/57004e4a20c647bc9420760b/t/58345640bebafbb1e66b78ce/1479824966458/AD+Astra+poster.jpg?format=500w",
+        "trailer_url": "https://www.youtube.com/watch?v=NTDgOOA2f-A",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ad_Astra_(film)",
+        "release_date": "2019-01-01",
+        "censor_board_rating": "UA",
+        "rating": 8,
+        "status": "PUBLISHED",
+        "artists": null
+      },
+      {
+        "id": "7e967dac-a2a2-11e8-9a3a-720006ceb890",
+        "title": "Paltan",
+        "storyline": "Paltan is an upcoming Indian war film directed and produced by J.P. Dutta, based on 1967 Nathu La and Cho La clashes along the Sikkim border after 1962 Sino-Indian War. It stars an ensemble cast with Jackie Shroff, Arjun Rampal, Sonu Sood, Harshvardhan Rane, Esha Gupta, Sonal Chauhan and many more. It is set to be released on 7 September 2018.",
+        "genres": [],
+        "duration": 150,
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/64/Paltan_2018.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=kk6btnMEKTQ",
+        "wiki_url": "https://en.wikipedia.org/wiki/Paltan_(film)",
+        "release_date": "2018-09-07",
+        "censor_board_rating": "UA",
+        "rating": 8,
+        "status": "PUBLISHED",
+        "artists": null
+      },
+      {
+        "id": "8d71c3b8-a293-11e8-9a3a-720006ceb890",
+        "title": "Mile 22",
+        "storyline": "Mile 22 is a 2018 American action thriller film directed by Peter Berg and written by Lea Carpenter, from a story by Carpenter and Graham Roland. The film stars Mark Wahlberg, John Malkovich, Lauren Cohan, Iko Uwais, Ronda Rousey, and follows an elite CIA task force, composed of paramilitary officers from Ground Branch of Special Activities Division, that has to escort a high-priority asset 22 miles to an extraction point while being hunted by terrorists.",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "duration": 95,
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/41/Mile_22.png",
+        "trailer_url": "https://www.youtube.com/watch?v=eJU6S5KOsNI",
+        "wiki_url": "https://en.wikipedia.org/wiki/Mile_22",
+        "release_date": "2018-09-19",
+        "censor_board_rating": "UA",
+        "rating": 6.1,
+        "status": "PUBLISHED",
+        "artists": [
+          {
+            "id": "3097b8f4-a294-11e8-9a3a-720006ceb890",
+            "first_name": "Peter",
+            "last_name": "Berg",
+            "role_type": "DIRECTOR",
+            "profile_description": "Peter Berg (born March 11, 1964) is an American director, producer, writer, and actor. In television, Berg developed Friday Night Lights (2006–2011), adapted from his film, earning two Primetime Emmy Award nominations. As an actor, he is best known for his role as Dr. Billy Kronk on the CBS medical drama Chicago Hope (1995–1999).",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Peter_Berg_by_Gage_Skidmore.jpg/440px-Peter_Berg_by_Gage_Skidmore.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Peter_Berg"
+          },
+          {
+            "id": "9df46816-a294-11e8-9a3a-720006ceb890",
+            "first_name": "Mark",
+            "last_name": "Wahlberg",
+            "role_type": "PRODUCER",
+            "profile_description": "PMark Robert Michael Wahlberg (born June 5, 1971) is an American actor, producer, businessman, former model, rapper and songwriter. He was known by his stage name Marky Mark in his early career as frontman for the group Marky Mark and the Funky Bunch, releasing the albums Music for the People and You Gotta Believe.",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mark_Wahlberg_2017.jpg/440px-Mark_Wahlberg_2017.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/Mark_Wahlberg"
+          },
+          {
+            "id": "1dd86f90-a296-11e8-9a3a-720006ceb890",
+            "first_name": "John",
+            "last_name": "Malkovich",
+            "role_type": "ACTOR",
+            "profile_description": "John Gavin Malkovich (born December 9, 1953) is an American actor, director, producer and fashion designer. He has appeared in more than 70 films. For his roles in Places in the Heart and In the Line of Fire, he received Academy Award nominations. He appeared in such films as Empire of the Sun, The Killing Fields, Con Air, The Sheltering Sky, Of Mice and Men, Rounders, Knockaround Guys, Being John Malkovich, Shadow of the Vampire, Burn After Reading, Red, Red 2, Mulholland Falls, Dangerous Liaisons, and Warm Bodies, as well as producing films such as Ghost World, Juno, and The Perks of Being a Wallflower.",
+            "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/John_Malkovich_at_a_screening_of_%22Casanova_Variations%22_in_January_2015.jpg/440px-John_Malkovich_at_a_screening_of_%22Casanova_Variations%22_in_January_2015.jpg",
+            "wiki_url": "https://en.wikipedia.org/wiki/John_Malkovich"
+          }
+        ]
+      },
+      {
+        "id": "7281988a-a2a2-11e8-9a3a-720006ceb890",
+        "title": "A Star IS Born",
+        "storyline": "A Star Is Born is an upcoming American musical romantic drama film produced and directed by Bradley Cooper, in his directorial debut. Cooper also wrote the screenplay with Will Fetters and Eric Roth. A remake of the 1937 film of the same name, it stars Cooper, Lady Gaga, Andrew Dice Clay, Dave Chappelle, and Sam Elliott, and follows a hard-drinking country musician (Cooper) who discovers and falls in love with a young singer (Gaga).",
+        "genres": [],
+        "duration": 135,
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/39/A_Star_is_Born.png",
+        "trailer_url": "https://www.youtube.com/watch?v=nSbzyEJ8X9E",
+        "wiki_url": "https://en.wikipedia.org/wiki/A_Star_Is_Born_(2018_film)",
+        "release_date": "2018-10-05",
+        "censor_board_rating": "UA",
+        "rating": 8,
+        "status": "PUBLISHED",
+        "artists": null
+      }   
+]

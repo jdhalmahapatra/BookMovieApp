@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Header from '../../common/header/Header';
 
-const Details = () => {
+const Details = (props) => {
     return (
-        <h2>Details Page</h2>
+        <Fragment>
+            <Header/>
+            <h2>Details Page</h2>
+        </Fragment>
     );
 }
 export default Details;

@@ -9,6 +9,7 @@
     "@material-ui/icons": "^3.0.2",
     "@mui/lab": "^5.0.0-alpha.83",
     "@mui/material": "^5.8.1",
+    "lodash": "^4.17.21",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-material-ui-form-validator": "^3.0.0",

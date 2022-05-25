@@ -7,18 +7,6 @@ import Box from '@mui/material/Box';
 // import TabPanel from '@mui/lab/TabPanel';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 
-
-// const customStyles = {
-//     content: {
-//       top: '50%',
-//       left: '50%',
-//       right: 'auto',
-//       bottom: 'auto',
-//       marginRight: '-50%',
-//       transform: 'translate(-50%, -50%)',
-//     },
-//   };
-
 const Header = () => {
     //let subtitle
     const [isModalOpen, setIsModalOpen] = useState(false)
@@ -56,11 +44,11 @@ const Header = () => {
         setIsModalOpen(false)
         setData({submitted:true})
     }
-
+    //rotate linear infinite
     return (
         <div className='header'>
-            <div className='logo rotate linear infinite'>
-                <img src={logo} alt='logo'/>
+            <div className='logo rotate linear infinite'> 
+                <img className='logoimg' src={logo} alt='logo'/>
             </div>
             <div className='action-control'>
                 <Button className='show-book' 
