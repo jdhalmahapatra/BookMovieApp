@@ -44,6 +44,7 @@ const Home = () => {
     const baseUrl = "/api/v1/";
     const [artists, setArtists] = useState([])
     useEffect(() => {
+        debugger;
         fetch(baseUrl + '/artists' +'?limit=100', {
             method:'GET',
             headers: {
@@ -58,7 +59,7 @@ const Home = () => {
             })
             
         })
-    },[artists])
+    },[])
 
     return(
         <Fragment>

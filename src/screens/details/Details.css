@@ -1,0 +1,48 @@
+.back-to-home{
+    margin-left: 24px;
+    margin-top: 8px;
+    height: 30px;
+    padding: 20px;
+}
+.back-to-home-anchor{
+    text-decoration: none;
+    cursor: pointer;
+    height: 24px;
+}
+.main-details-container{
+    height: 75%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+.left-part-page{
+    width: 20%;
+    height: 70vh;
+    /* background-color: blueviolet; */
+}
+.movie-image{
+    /* background-color: blue; */
+    margin-top: 0;
+    margin-left: 25px;
+    height: 350px;
+    width: 200px;
+}
+.movie-details-img-property{
+    width: auto;
+    height: auto;
+}
+.center-part-page{
+    width: 60%;
+    height: 70vh;
+    background-color: brown;
+}
+.right-part-page{
+    width: 20%;
+    height: 70vh;
+    background-color: cadetblue;
+}
