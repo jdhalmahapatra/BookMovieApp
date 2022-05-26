@@ -39,7 +39,6 @@ const handleChange =(e) => {
     console.log(e.target.value)
 }
 
-
 const Home = () => {
     const baseUrl = "/api/v1/";
     const [artists, setArtists] = useState([])
@@ -91,11 +90,6 @@ function UpComingGrid(props){
                             <img className='content-img' src={props.data.poster_url} alt={props.data.title}/>
                             <ImageListItemBar 
                                 title={props.data.title}
-                                actionIcon = {
-                                    <IconButton aria-label={`star ${props.data.title}`}>
-                                        <StarBorderIcon className='star-title'/>
-                                    </IconButton>
-                                }
                             />
                         </ImageListItem>
                     </Paper>
@@ -111,16 +105,19 @@ function ReleasedMovie(props){
                         <div class="row" style={{marginTop:'4px'}}>
                         {
                             releasedMovieData.map((item) => (
-                                <div class="column">
-                                    <div class="card">
-                                    <ImageListItem key={item.id}>
-                                        <img className='release-content-img' src={item.poster_url} alt={item.title}/>
-                                        <ImageListItemBar 
-                                            title={item.title}
-                                        />
-                                    </ImageListItem>
+                                <Link to={`/movie/${item.id}`}>
+                                    <div class="column">
+                                        <div class="card">
+                                        <ImageListItem key={item.id}>
+                                            <img className='release-content-img' src={item.poster_url} alt={item.title}/>
+                                            <ImageListItemBar 
+                                                title={item.title}
+                                                subtitle={item.release_date}
+                                            />
+                                        </ImageListItem>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             ))
                         }
                         </div>
@@ -129,6 +126,7 @@ function ReleasedMovie(props){
                         <FilterComponent data={props}/>
                     </Grid>
             </Grid>
+        
     );
 }
 

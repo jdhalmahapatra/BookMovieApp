@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "066e720c-a235-11e8-9077-720006ceb890",
         "title":"Annabelle: Creation",
         "genres": [
             "Horror",
@@ -21,14 +21,14 @@
         }]
     },
     {
-        "id": "2",
+        "id": "5d49d32e-a2a2-11e8-9a3a-720006ceb890",
         "title": "The Nun",
         "genres": [],
         "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/34/TheNunPoster.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=pzD9zGcUNrw",
         "release_date": "2022-09-07",
         "status": "UPCOMING",
-        "artists": null
+        "artists": []
     },
     {
     "id": "009ae262-a234-11e8-b475-720006ceb890",

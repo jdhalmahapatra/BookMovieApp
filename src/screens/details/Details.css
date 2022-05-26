@@ -6,7 +6,6 @@
 }
 .back-to-home-anchor{
     text-decoration: none;
-    cursor: pointer;
     height: 24px;
 }
 .main-details-container{
@@ -15,7 +14,7 @@
     /* background-color: chocolate; */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     margin-top: 7px;
@@ -39,10 +38,29 @@
 .center-part-page{
     width: 60%;
     height: 70vh;
-    background-color: brown;
+    /* background-color: brown; */
+}
+.title-text{
+    font-size: 30px !important ;
+    font-weight: 400 !important;
+}
+.youtube-player-container{
+    width: 95%;
+    height:350px;
+    /* background-color:blue; */
 }
 .right-part-page{
     width: 20%;
     height: 70vh;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+}
+.right-part-page-container{
+    padding: 10px;
+}
+.artist-profile-pic{
+    padding: 5px !important;
+    width: 120px !important;
+    height: 180px !important;
+    margin-left: auto;
+    margin-right: auto;
 }
