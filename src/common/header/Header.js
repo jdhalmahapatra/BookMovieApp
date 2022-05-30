@@ -19,16 +19,20 @@ const Header = () => {
         submitted:false
     })
 
+    const [regData, setRegData] = useState({
+        formData:{
+            firstName:'',
+            lastname:'',
+            email:'',
+            password:'',
+            contact:''
+        },
+        submitted:false
+    })
+
     const openModal = () => {
         setIsModalOpen(true)
     }
-    // const afterOpenModal = () => {
-    //     // references are now sync'd and can be accessed.
-    //     subtitle.style.color = '#f00';
-    // }
-    // const closeModal = () => {
-    //     setIsModalOpen(false);
-    // }
     const handleChange = (_, value) => {
         setValue(value)
     }
@@ -115,7 +119,89 @@ const Header = () => {
                             </ValidatorForm>
                         </Box>
                         :
-                        <Box></Box>
+                        <Box>
+                        <ValidatorForm onSubmit={handleSubmit}>
+                                <TextValidator
+                                    id='firstname'
+                                    label='First Name'
+                                    type='text'
+                                    name='firstname'
+                                    className='textfiled-style'
+                                    variant='standard'
+                                    onChange={handleOnChange}
+                                    value={regData.firstName}
+                                    validators={['required', 'isEmail']}
+                                    errorMessages={['this field is required', 'email is not valid']}
+                                >
+                                </TextValidator>
+                                <TextValidator
+                                    id='lastname'
+                                    label='Last Name'
+                                    type='text'
+                                    name='lastname'
+                                    className='textfiled-style'
+                                    variant='standard'
+                                    style={{marginTop:'25px'}}
+                                    onChange={handleOnChange}
+                                    value={regData.lastname}
+                                    validators={['required']}
+                                    errorMessages={['this field is required']}
+                                >
+                                </TextValidator>
+                                <TextValidator
+                                    id='email'
+                                    label='Email'
+                                    type='text'
+                                    name='email'
+                                    className='textfiled-style'
+                                    variant='standard'
+                                    style={{marginTop:'25px'}}
+                                    onChange={handleOnChange}
+                                    value={regData.email}
+                                    validators={['required', 'isEmail']}
+                                    errorMessages={['this field is required', 'email is not valid']}
+                                >
+                                </TextValidator>
+                                <TextValidator
+                                    id='password'
+                                    label='Password'
+                                    type='password'
+                                    name='password'
+                                    className='textfiled-style'
+                                    variant='standard'
+                                    style={{marginTop:'25px'}}
+                                    onChange={handleOnChange}
+                                    value={regData.password}
+                                    validators={['required']}
+                                    errorMessages={['this field is required']}
+                                >
+                                </TextValidator>
+                                <TextValidator
+                                    id='contact'
+                                    label='Contact No'
+                                    type='number'
+                                    name='contact'
+                                    className='textfiled-style'
+                                    variant='standard'
+                                    style={{marginTop:'25px'}}
+                                    onChange={handleOnChange}
+                                    value={regData.contact}
+                                    validators={['required']}
+                                    errorMessages={['this field is required']}
+                                >
+                                </TextValidator>
+                                <br/><br/>
+                                <Button
+                                    color="primary"
+                                    variant="contained"
+                                    type="submit"
+                                    style={{marginTop:'20px', left:'40%'}}
+                                    disabled={data.submitted}
+                                >
+                                  REGISTER
+                                </Button>
+                            </ValidatorForm>
+                        </Box>
                         }
                     </Box>
                 </Modal>
