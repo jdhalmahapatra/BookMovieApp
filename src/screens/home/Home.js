@@ -40,10 +40,24 @@ const handleChange =(e) => {
 }
 
 const Home = () => {
+    let upcomingMovies = []
     const baseUrl = "/api/v1/";
     const [artists, setArtists] = useState([])
+    const [getMovies, setAllMovies] = useState(null)
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState(null)
+        // {
+        //     id: '',
+        //     title:'',
+        //     genres:[],
+        //     poster_url:'',
+        //     trailer_url:'',
+        //     release_date: '',
+        //     movieStatus:'',
+        //     artists:[]
+        // }
+    
     useEffect(() => {
-        debugger;
         fetch(baseUrl + '/artists' +'?limit=100', {
             method:'GET',
             headers: {
@@ -60,17 +74,86 @@ const Home = () => {
         })
     },[])
 
+    //Fetch All Movies and then filter it based on Genre
+    /*useEffect(() => {
+        async function fetchMovies(){
+           const response = await fetch (baseUrl + 'movies/?page=1&limit=20',{
+                method:'GET',
+                headers:{
+                    'Content-Type':'application/json',
+                    'Cache-Control':'no-cache'
+                }
+            })
+            if(!response.ok){
+                const message = `An error occured : ${response.status}`
+                throw new Error(message)
+            }
+           const movies = await response.json()
+           return movies
+        }
+        fetchMovies().then((movies) =>{
+            movies.movies.forEach((element) => {
+                
+                allMovies.push(element)
+            })
+             upcomingMovies = allMovies.filter((element) =>element.status==='PUBLISHED')
+             setError(null)
+        }).catch(error =>{
+            setError(error.message)
+        })
+        .finally(() => {
+            setLoading(false)
+        })
+        
+    }, []) */
+
+
+    useEffect(() => {
+        const getMoviesList = async () => {
+            try{
+                const response = await fetch (baseUrl + 'movies/?page=1&limit=20',{
+                    method:'GET',
+                    headers:{
+                        'Content-Type':'application/json',
+                        'Cache-Control':'no-cache'
+                    }
+                })
+                if(!response.ok){
+                    const message = `An error occured : ${response.status}`
+                    throw new Error(message)        
+                }
+                let actualData = await response.json()
+                console.log(actualData)
+                setAllMovies(actualData)
+                setError(null)
+            }
+            catch(err){
+                setError(err.message)
+                setAllMovies(null)
+            }
+            finally{
+                setLoading(false)
+            }
+        }
+        getMoviesList()
+    }, [])
+
     return(
         <Fragment>
             <Header />
             <div className='upcoming-movie'>
                 <h5>Upcoming Movies</h5>   
             </div>
+            {loading && <div>A moment please...</div>}
+            {error && (<div>{`There is a problem fetching the post data - ${error}`}</div>)}
             <div className='container'>
-                {
-                    movieData.map((item) => (
+                { 
+
+                    getMovies !== null ? getMovies.movies.filter((element) => element.status === 'PUBLISHED').map((item) => (
                         <UpComingGrid key= {item.id} data={item}/>
                     ))
+                    :
+                    <div style={{height: '30px', width:'100%', backgroundColor:'blue'}}></div>
                 }
             </div>
             <div className='released-movie-container'>
@@ -82,6 +165,8 @@ const Home = () => {
 
 //Grid Component
 function UpComingGrid(props){
+    debugger;
+    console.log(props)
     return(
         <Link to={`/movie/${props.data.id}`}>
             <Grid container spacing={2}>
@@ -246,4 +331,22 @@ export default Home;
         })
     }, [])
     console.log(artists)
+
+
+    // setAllMovies(allMovies.push({
+                //     id: element.id,
+                //     title: element.title,
+                //     genres:element.genres,
+                //     poster_url:element.poster_url,
+                //     trailer_url:element.trailer_url,
+                //     release_date:element.release_date,
+                //     movieStatus: element.status,
+                //     artists:element.artists
+                // }))
+
+     upcomingMovies && upcomingMovies.map((item) => {
+                        <UpComingGrid key= {item.id} data={item}/>
+                    }) 
+
+
  */
