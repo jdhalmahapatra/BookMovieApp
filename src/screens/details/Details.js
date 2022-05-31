@@ -71,7 +71,7 @@ const Details = (props) => {
 
     return (
         <Fragment>
-            <Header/>
+            <Header currentMovieId={movieId} />
             <div className='back-to-home'>
                 <a href='/' className='back-to-home-anchor'><Typography variant="h6" sx={{color:'#000', height:'24px', cursor:'pointer'}}>
                     {'< Back to Home'}

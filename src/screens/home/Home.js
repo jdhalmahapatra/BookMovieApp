@@ -152,7 +152,7 @@ const Home = () => {
 
   return (
     <Fragment>
-      <Header />
+      <Header isFrom={'Home'}/>
       <div className="upcoming-movie">
         <h5>Upcoming Movies</h5>
       </div>

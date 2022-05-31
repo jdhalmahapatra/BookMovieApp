@@ -6,11 +6,12 @@ import { Button, Tab, Tabs } from '@material-ui/core';
 import Box from '@mui/material/Box';
 // import TabPanel from '@mui/lab/TabPanel';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
+import { Link } from "react-router-dom";
 
-const Header = () => {
-    //let subtitle
+
+const Header = (props) => { 
     const [isModalOpen, setIsModalOpen] = useState(false)
-    const [value, setValue] = useState('1')
+    const [indexVal, setIndexVal] = useState('1')
     const [data, setData] = useState({
         formData:{
             username:'',
@@ -29,22 +30,34 @@ const Header = () => {
         },
         submitted:false
     })
-
+    const bookMovieShow =() => {
+        console.log('Book Show Button clicked')
+    }
     const openModal = () => {
         setIsModalOpen(true)
     }
     const handleChange = (_, value) => {
-        setValue(value)
+        setIndexVal(value)
     }
 
     const handleOnChange = e => {
+        debugger;
         const {name, value} = e.target
-        setData(prevData =>({
-            ...prevData,
-            [name]: value
-        }))
+        if(indexVal === '1'){
+            setData(prevData =>({
+                ...prevData,
+                [name]: value
+            }))
+        }
+        else{
+            setRegData(prevData =>({
+                ...prevData,
+                [name]: value
+            }))
+        }
     }
     const handleSubmit = () =>{
+        debugger;
         setIsModalOpen(false)
         setData({submitted:true})
     }
@@ -55,11 +68,21 @@ const Header = () => {
                 <img className='logoimg' src={logo} alt='logo'/>
             </div>
             <div className='action-control'>
-                <Button className='show-book' 
-                        variant='contained' 
-                        color='primary'>
-                        BOOK SHOW
-                </Button>  
+            {
+                props.isFrom !== 'Home' 
+                ? 
+                <Link to={`/bookshow/${props.currentMovieId}`}> 
+                    <Button className='show-book' 
+                            variant='contained' 
+                            color='primary'
+                            onClick={bookMovieShow}>
+                            BOOK SHOW
+                    </Button> 
+                </Link>
+                :
+                <Box></Box>
+            }
+               
                 <Button className='login-logout-btn' 
                         variant='contained' 
                         onClick={openModal}>
@@ -69,13 +92,13 @@ const Header = () => {
                 <Modal isOpen={isModalOpen} className='auth-modal'>
                     <Box className='modal-container'>
                         <Box>
-                            <Tabs className='custom-tab' value={value} indicatorColor='secondary' onChange={handleChange}>
+                            <Tabs className='custom-tab' value={indexVal} indicatorColor='secondary' onChange={handleChange}>
                                 <Tab label="LOGIN" value='1'/>
                                 <Tab label="REGISTER" value='2'/>
                             </Tabs>
                         </Box>
                         {
-                            value === '1'
+                            indexVal === '1'
                             ?
                             <Box>
                             <ValidatorForm onSubmit={handleSubmit}>
