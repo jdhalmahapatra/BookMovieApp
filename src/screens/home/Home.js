@@ -59,7 +59,6 @@ const movieGenre = [
 let allArtists = null;
 
 const handleChange = (e) => {
-  debugger;
   console.log(e.target.value);
 };
 
@@ -246,6 +245,8 @@ function ReleasedMovie(props) {
 
 function FilterComponent(props) {
   allArtists = props.data;
+
+
   return (
     <Box sx={{ minWidth: 240, margin: "15px" }}>
       <Card variant="outlined">
@@ -344,7 +345,7 @@ function FilterComponent(props) {
             variant="contained"
             sx={{ marginLeft: "auto", marginRight: "auto" }}
           >
-            SUBMIT
+            Apply
           </Button>
         </CardActions>
       </Card>
